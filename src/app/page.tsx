@@ -1,7 +1,7 @@
 "use client";
 
-import useTasksWithAnonymousArrowFunction from "./hooks/useTasksWithAnonymousArrowFunction";
-import useTasksWithFunctionName from "./hooks/useTasksWithFunctionName";
+import useTasksWithAnonymousArrowFunction from "../hooks/useTasksWithAnonymousArrowFunction";
+import useTasksWithFunctionName from "../hooks/useTasksWithFunctionName";
 
 export default function Home() {
   const { data: tasksWithFunctionName } = useTasksWithFunctionName();
